@@ -22,13 +22,13 @@ pipeline {
                     } else {
                         withEnv([
                             "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_202",
-                            "PYTHON_HOME=C:\\Users\\rehou\\AppData\\Local\\Microsoft\\WindowsApps",
+                            "PYTHON_HOME=C:\\Users\\13489\\AppData\\Local\\Microsoft\\WindowsApps",
                             "PATH=%JAVA_HOME%\\bin;%PYTHON_HOME%;%PATH%"
                         ]) {
                             bat 'echo "Running on Windows"'
                             bat 'javac HelloWorld.java'
                             bat 'java HelloWorld'
-                            bat 'python hello.py'
+                            bat 'python3 hello_world.py'
                         }
                     }
                 }
