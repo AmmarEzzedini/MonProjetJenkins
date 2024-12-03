@@ -28,7 +28,7 @@ pipeline {
                             bat 'echo "Running on Windows"'
                             bat 'javac HelloWorld.java'
                             bat 'java HelloWorld'
-                            bat 'python3 hello_world.py'
+                            bat 'python hello_world.py'
                         }
                     }
                 }
